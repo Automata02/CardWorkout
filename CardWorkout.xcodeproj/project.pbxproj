@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		6C780309290FA1C700887940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C780308290FA1C700887940 /* AppDelegate.swift */; };
 		6C78030B290FA1C700887940 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78030A290FA1C700887940 /* SceneDelegate.swift */; };
-		6C78030D290FA1C700887940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78030C290FA1C700887940 /* ViewController.swift */; };
 		6C780310290FA1C700887940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C78030E290FA1C700887940 /* Main.storyboard */; };
 		6C780312290FA1CA00887940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C780311290FA1CA00887940 /* Assets.xcassets */; };
 		6C780315290FA1CA00887940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C780313290FA1CA00887940 /* LaunchScreen.storyboard */; };
+		6C78031D290FA20E00887940 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78031C290FA20E00887940 /* CardSelectionVC.swift */; };
+		6C78031F290FAF9D00887940 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78031E290FAF9D00887940 /* Deck.swift */; };
+		6C780321290FB71B00887940 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C780320290FB71B00887940 /* RulesVC.swift */; };
+		6C780325290FBF2000887940 /* HintSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C780324290FBF2000887940 /* HintSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6C780305290FA1C700887940 /* CardWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C780308290FA1C700887940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C78030A290FA1C700887940 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C78030C290FA1C700887940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C78030F290FA1C700887940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C780311290FA1CA00887940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C780314290FA1CA00887940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C780316290FA1CA00887940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C78031C290FA20E00887940 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
+		6C78031E290FAF9D00887940 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		6C780320290FB71B00887940 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		6C780324290FBF2000887940 /* HintSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				6C780308290FA1C700887940 /* AppDelegate.swift */,
 				6C78030A290FA1C700887940 /* SceneDelegate.swift */,
-				6C78030C290FA1C700887940 /* ViewController.swift */,
+				6C78031E290FAF9D00887940 /* Deck.swift */,
+				6C780320290FB71B00887940 /* RulesVC.swift */,
+				6C78031C290FA20E00887940 /* CardSelectionVC.swift */,
 				6C78030E290FA1C700887940 /* Main.storyboard */,
 				6C780311290FA1CA00887940 /* Assets.xcassets */,
 				6C780313290FA1CA00887940 /* LaunchScreen.storyboard */,
 				6C780316290FA1CA00887940 /* Info.plist */,
+				6C780324290FBF2000887940 /* HintSwift.swift */,
 			);
 			path = CardWorkout;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C78030D290FA1C700887940 /* ViewController.swift in Sources */,
+				6C780325290FBF2000887940 /* HintSwift.swift in Sources */,
+				6C78031F290FAF9D00887940 /* Deck.swift in Sources */,
+				6C780321290FB71B00887940 /* RulesVC.swift in Sources */,
 				6C780309290FA1C700887940 /* AppDelegate.swift in Sources */,
 				6C78030B290FA1C700887940 /* SceneDelegate.swift in Sources */,
+				6C78031D290FA20E00887940 /* CardSelectionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
