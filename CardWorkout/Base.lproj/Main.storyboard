@@ -29,11 +29,11 @@
                                     <constraint firstAttribute="width" constant="260" id="MBp-59-FeJ"/>
                                     <constraint firstAttribute="height" constant="50" id="jmB-jT-Gki"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemPinkColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Stop">
+                                <buttonConfiguration key="configuration" style="tinted" image="stop.circle" catalog="system" title="Stop" imagePadding="5">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="semibold"/>
                                     <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="20"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" systemColor="systemPinkColor"/>
                                     <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -41,16 +41,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbe-gV-x7j">
-                                <rect key="frame" x="65" y="612" width="115" height="50"/>
+                                <rect key="frame" x="65" y="612" width="120" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="115" id="YlY-jQ-o0o"/>
+                                    <constraint firstAttribute="width" constant="120" id="YlY-jQ-o0o"/>
                                     <constraint firstAttribute="height" constant="50" id="oPj-zC-Gjt"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemMintColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Restart">
-                                    <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="20"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <buttonConfiguration key="configuration" style="tinted" image="arrow.clockwise" catalog="system" title="Restart" imagePadding="5">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="semibold"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="17"/>
+                                    <color key="baseForegroundColor" systemColor="systemMintColor"/>
                                     <color key="baseBackgroundColor" systemColor="systemMintColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -58,16 +58,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GuS-MJ-OiI">
-                                <rect key="frame" x="210" y="612" width="115" height="50"/>
+                                <rect key="frame" x="205" y="612" width="120" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="LhH-8h-BbS"/>
-                                    <constraint firstAttribute="width" constant="115" id="WMt-0m-PQO"/>
+                                    <constraint firstAttribute="width" constant="120" id="WMt-0m-PQO"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Rules">
-                                    <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="20"/>
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <buttonConfiguration key="configuration" style="tinted" image="list.bullet.clipboard" catalog="system" title="Rules" imagePadding="5">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" weight="semibold"/>
+                                    <fontDescription key="titleFontDescription" type="system" weight="black" pointSize="17"/>
+                                    <color key="baseForegroundColor" systemColor="systemYellowColor"/>
                                     <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -90,9 +90,6 @@
                     </view>
                     <connections>
                         <outlet property="cardImageView" destination="3Jn-aA-8XF" id="tEd-rX-Uct"/>
-                        <outletCollection property="buttons" destination="rJR-TM-wFg" collectionClass="NSMutableArray" id="nyS-Q3-Hxo"/>
-                        <outletCollection property="buttons" destination="pbe-gV-x7j" collectionClass="NSMutableArray" id="37e-Gt-bmb"/>
-                        <outletCollection property="buttons" destination="GuS-MJ-OiI" collectionClass="NSMutableArray" id="pA8-2E-lCd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -114,14 +111,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qEV-pB-SmQ">
-                                <rect key="frame" x="30" y="190" width="330" height="172"/>
-                                <string key="text">The value of each card represents the number of exercises you do.  J = 11, Q = 12, K = 13, A = 14  If you don't remember what each card means tap on a card and your taks will be explained!</string>
+                                <rect key="frame" x="30" y="190" width="330" height="129"/>
+                                <string key="text">The value of each card represents the number of exercises you do.  If you don't remember what each card means tap on a card and your taks will be explained!</string>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="♠️ = Push-up  ❤️ = Sit-up  ♣️ = Burpees  ♦️ = Jumping Jacks" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Uc-5P-BO7">
-                                <rect key="frame" x="95" y="437.00000000000006" width="200" height="175.66666666666669"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="J = 11, Q = 12  K = 13, A = 14  ♠️ = Push-up  ❤️ = Sit-up  ♣️ = Burpees  ♦️ = Jumping Jacks" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Uc-5P-BO7">
+                                <rect key="frame" x="95" y="394" width="200" height="275.66666666666674"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="H9Z-Kh-mWy"/>
                                 </constraints>
@@ -132,7 +129,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PU2-Fa-3F8">
                                 <rect key="frame" x="16" y="63" width="83.333333333333329" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Dismiss">
+                                <buttonConfiguration key="configuration" style="tinted" title="Dismiss">
+                                    <color key="baseForegroundColor" systemColor="systemPurpleColor"/>
                                     <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -163,6 +161,9 @@
     </scenes>
     <resources>
         <image name="10C" width="691" height="1056"/>
+        <image name="arrow.clockwise" catalog="system" width="113" height="128"/>
+        <image name="list.bullet.clipboard" catalog="system" width="103" height="128"/>
+        <image name="stop.circle" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
