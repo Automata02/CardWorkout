@@ -32,8 +32,8 @@ class CardSelectionVC: UIViewController {
     
     @objc func cardTapped(tapGestureRecognizer: UITapGestureRecognizer) {
         timer.invalidate()
-        let task = checkCard(for: cardImageView.image?.description ?? "")
-        actionSheet(title: "Task", message: task)
+        let task = (cardImageView.image?.accessibilityIdentifier)!
+        actionSheet(title: "Task", message: Tasks.taskValues[task]!)
     }
     
     func startTimer() {
