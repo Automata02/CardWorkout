@@ -16,6 +16,7 @@
 		6C78031F290FAF9D00887940 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78031E290FAF9D00887940 /* Deck.swift */; };
 		6C780321290FB71B00887940 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C780320290FB71B00887940 /* RulesVC.swift */; };
 		6CB9259929190E1400A7D322 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9259829190E1400A7D322 /* Tasks.swift */; };
+		6CB9259B291912E400A7D322 /* TaskFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB9259A291912E400A7D322 /* TaskFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6C78031E290FAF9D00887940 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		6C780320290FB71B00887940 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 		6CB9259829190E1400A7D322 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		6CB9259A291912E400A7D322 /* TaskFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		6C780307290FA1C700887940 /* CardWorkout */ = {
 			isa = PBXGroup;
 			children = (
+				6CB9259A291912E400A7D322 /* TaskFunction.swift */,
 				6CB9259829190E1400A7D322 /* Tasks.swift */,
 				6C780308290FA1C700887940 /* AppDelegate.swift */,
 				6C78030A290FA1C700887940 /* SceneDelegate.swift */,
@@ -150,6 +153,7 @@
 				6CB9259929190E1400A7D322 /* Tasks.swift in Sources */,
 				6C78031F290FAF9D00887940 /* Deck.swift in Sources */,
 				6C780321290FB71B00887940 /* RulesVC.swift in Sources */,
+				6CB9259B291912E400A7D322 /* TaskFunction.swift in Sources */,
 				6C780309290FA1C700887940 /* AppDelegate.swift in Sources */,
 				6C78030B290FA1C700887940 /* SceneDelegate.swift in Sources */,
 				6C78031D290FA20E00887940 /* CardSelectionVC.swift in Sources */,

@@ -13,6 +13,7 @@ struct Tasks {
         "3H" : "Do Three Sit-ups!",
         "4H" : "Do Four Sit-ups!",
         "5H" : "Do Five Sit-ups!",
+        "6H" : "Do Six Sit-ups!",
         "7H" : "Do Seven Sit-ups!",
         "8H" : "Do Eight Sit-ups!",
         "9H" : "Do Nice Sit-ups!",

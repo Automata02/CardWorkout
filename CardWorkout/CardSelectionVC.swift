@@ -34,6 +34,7 @@ class CardSelectionVC: UIViewController {
         timer.invalidate()
         let task = (cardImageView.image?.accessibilityIdentifier)!
         actionSheet(title: "Task", message: Tasks.taskValues[task]!)
+        print("Result from giveTask function w/o using Tasks dictionary - " + giveTask(task))
     }
     
     func startTimer() {
