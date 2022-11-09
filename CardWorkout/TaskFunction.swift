@@ -25,14 +25,14 @@ func giveTask(_ name: String) -> String {
     
     func getActivity() -> String {
         switch name {
-        case _ where name.contains("H"):
+        case _ where name.hasSuffix("H"):
             return "Sit-ups"
-        case _ where name.contains("S"):
+        case _ where name.hasSuffix("S"):
             return "Push-ups"
-        case _ where name.contains("C"):
+        case _ where name.hasSuffix("C"):
             return "Burpees"
-        case _ where name.contains("D"):
-            return "JumpingJacks"
+        case _ where name.hasSuffix("D"):
+            return "Jumping Jacks"
         default:
             return "Planks"
         }
